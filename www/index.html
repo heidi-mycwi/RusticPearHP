@@ -1,0 +1,221 @@
+<!-- Rustic Pear Salon Mobile Website
+     Programmed:02/24/17
+     Author: Heidi Pearson
+     Description: Website gives mobile usage with a home page, about us page with a data-collapsed giving the user all the information about current staff site has a theme css and a regular styles css that give the unique and rustic look of the website. Contact us page has information about how to contact as well as giving link info to the FB and messenger page	.-->
+<!--************************************************************************************************************************************************************
+Modification log
+Name:								Date:						Description
+Heidi								03/21/17					LINE 211 replaced previous page to home page
+
+
+-->
+	 <!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+    <title>Rustic Pear Salon</title>
+	 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"> 
+	<link rel="stylesheet" href="themes/RusticPearSalon.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link href="css/styles.css" rel="stylesheet" type="text/css">   
+    <!-- JavaScript HTML requirements -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+	<!-- HOME -->
+	<div data-role="page" data-theme="h" id="home">
+    	<header data-role="header">
+			<img src="images/pearimage.png"/>
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" class="ui-btn-active" data-theme="h">Home</a></li>
+					<li><a href="#aboutus" data-icon="star" data-theme="h">About Us</a></li>
+	            	<li><a href="#contactus" data-icon="grid" data-theme="h">Contact Us</a></li>
+				</ul>
+	    	</div>
+    	</header>
+    
+    	<section data-role="content">
+			<h1>Welcome to Rustic Pear Salon!!</h1>
+			<h2>Located in beautiful downtown Twin Falls.It has a rustic charm with elegant touches. It is a full service salon.</h2>
+	    	<img src="images/banner.jpg" />
+    	</section>
+    
+    	<footer data-role="footer">
+        	<h4>&copy; 2017 Rustic Pear Salon</h4>
+    	</footer>
+	</div>
+	<!-- About Us -->
+	<div data-role="page" data-theme="h" id="aboutus">
+    	<header data-role="header">
+        	<img src="images/pearimage.png"/>
+			<h1>About Us</h1>
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home"  data-theme="h">Home</a></li>
+					<li><a href="#aboutus" data-icon="star" class="ui-btn-active" data-theme="h">About Us</a></li>
+            		<li><a href="#contactus" data-icon="grid" data-theme="h">Contact Us</a></li>
+				</ul>
+			</div>
+    	</header>
+    
+    	<section data-role="content" data-theme="h">
+    		<div class="content-primary" data-theme="h">	
+        			<div data-role="collapsible" data-theme="h" data-collapsed="true">
+            				<h2><img src="images/owners.jpg" alt="owners" id="staff">Owners</h2>
+            				<h3>From the Owners of Rustic Pear Salon:) Ronda Hansen, Amber Salinas and Ali Olsen</h3>
+                            <ul>
+                                <li>What a fun year this has been for RUSTIC PEAR SALON!!! 
+									We took a leap of faith and opened a salon in Downtown Twin Falls, 
+									knowing the renovations that will be taking place on Main Street will be an amazing atmosphere for many to enjoy!!! 
+									We couldn't of done it without husbands, family members, and friends who saw our vision and were there to lend a helping hand! 
+									It's hard to mention all the blessings that have come from this adventure, 
+									but our fabulous Stylist and Nail Tech have been AWESOMELY amazing and great team players! 
+									The Holidays are upon us and it is such a fun time of year for party's and spending time with family! 
+									Thank you to all our clients who support our girls, know that we are so thankful for you!
+									Season Blessings!</li>
+                            </ul>
+        			</div>
+        			<div data-role="collapsible" data-theme="h" data-collapsed="true">
+            				<h2><img src="images/CourtneyBeams.jpg" alt="CourtneyBeams" id="staff">Courtney</h2>
+            				<h3>Today at Rustic Pear Salon we are spotlighting Courtney Beams!!!</h3>
+                            <ul>
+								<li>She attended Master Educators Beauty School and has been working in the Beauty Industry for 2 1/2 years. Courtney is a perfectionist and cares about the services she provides for her clients. Services that she offers are Nails, Haircuts and fun Hair Colors!! Courtney and her husband have an adorable baby girl who is 10 months old, she loves being a mother and taking care of her family!</li>
+                                <li>She works Monday, Wednesdays and every other Saturday:)</li> 
+								<li>Call now to book an appointment! Salon # 208-733-5377 Cell Phone # 208-420-7529</li>
+                            </ul> 
+                            
+        			</div>
+        			<div data-role="collapsible" data-theme="h" data-collapsed="true">
+            				<h2><img src="images/ValPotts.jpg"alt="ValPotts" id="staff">Val</h2>
+            				<h3>This week Rustic Pear Salon would like to spotlight Val Potts! </h3>
+                            <ul>
+								<li>We absolutely love having her at our salon!!! Val has a sweet personality that everyone wants to be around! She cares about her clients and always tries to provide exactly what they want. She brings eight years of experience to the BEAUTY INDUSTRY and has had EXTENSIVE training as an Esthetician! If its skin care that you are looking for she is your girl! Val loves to stay busy at the salon and is the proud momma of a sweet little boy, and a new baby girl who is expected to arrive soon:) Her SPECIALS for October are.</li>
+                                <li>Val is at the Salon Monday - Friday! </li> 
+								<li>Rustic Pear Salon #208-733-5377 Cell phone #208-219-2494</li>
+                            </ul> 
+                            
+        			</div>
+					<div data-role="collapsible" data-theme="h" data-collapsed="true">
+            				<h2><img src="images/LexiBernhise.jpg" alt="LexiBernhise" id="staff">Lexi</h2>
+            				<h3>Today at Rustic Pear Salon we are spotlighting Lexi Bernhise!!!</h3>
+                            <ul>                     
+								<li>She is loved for more than just her vibrant personality but the creativity that she brings to her work. She attended Master Educators Beauty school in 2009 and is constantly seeking ways to stay on top of the latest trends and techniques. Her talents combined with her experience make for a hairstylist out of this world. She specializes in dimensional hair color, rocking cuts. and facial waxing. She loves to do highlights and low lights and will have everyone talking about how great you look by the time she is finished. On top of her shear talent in the beauty industry she paints a perfect picture for the ambitious, creative, and feel good woman. She loves dogs, food, and the great outdoors. She could very well be the stylist of your dreams. </li>
+                                <li>Call or text her today to get your hot new look!208.293.5770 (by appointment only)</li>
+                            </ul> 
+                            
+        			</div>
+					<div data-role="collapsible" data-theme="h" data-collapsed="true">
+            				<h2><img src="images/CrystalRhoades.jpg" alt="CrystalRhoades" id="staff">Crystal</h2>
+            				<h3>Today at Rustic Pear Salon we are spotlighting Crystal Rhoades!!!</h3>
+                            <ul>
+								<li>She is super sweet and energetic, a great addition to Rustic Pear Salon! Crystal has been a hairdresser for three years and would love to give you the look you want to achieve. She also is very busy creating awesome nails!</li>
+                                <li>Call and book your appointment today! 208-404-6139</li> 
+							</ul> 
+                            
+        			</div>
+					<div data-role="collapsible" data-theme="h" data-collapsed="true">
+            				<h2><img src="images/AmandaJoy.jpg"alt="AmandaJoy" id="staff">Amanda</h2>
+            				<h3>This week Rustic Pear Salon would like to spotlight Amanda Joy!! </h3>
+                            <ul>
+								<li>Amanda Joy is a great addition to our team 
+									She has a cute, spunky personality that is sure to make you smile. She is always excited to learn and try new things, and she is always up to date on the latest styles. She specializes in razor cuts & sassy a-lines.</li>
+								<li>She also offers many other services including waxing, nails, color, updos and make up.</li>
+								<li>She is super versatile and can do ANYTHING from mild to wild!!!</li>
+								<li>Her hours at the salon are Tuesday, Thursday and Saturday. Sunday by appointment only.</li> 
+								<li>Call her at 208.570.7720 or the salon at 208.733.5377.</li>
+                            </ul> 
+                            
+        			</div>
+					<div data-role="collapsible" data-theme="h" data-collapsed="true">
+            				<h2><img src="images/ShelbyNelson.jpg" alt="ShelbyNelson" id="staff">Shelby</h2>
+            				<h3>Today we are excited to spot light our very TALENTED Nail Tech, Shelby Nelson!!!</h3>
+                            <ul>
+								<li>What's so special about Shelby is she "loves" her job and her clients!! Not only does she care about the health of your nails, but she tries hard to deliver exactly what you are looking for!!</li>
+								<li>Shelby is very creative with her nail designs and many are posted on her facebook page (nails by Shelby)! If you are looking    for a relaxing service check out her Pedicures which are sure to please:)</li>
+								<li>or if you have a special event coming up, she is offering professional makeup that is guaranteed to make you BEAUTIFUL!</li>
+								<li>Book your appointment today!! 208-308-6764 or call Rustic Pear Salon 208-733-5377</li> 
+                            </ul> 
+                            
+        			</div>
+					
+					<div data-role="collapsible" data-theme="h" data-collapsed="true">
+            				<h2><img src="images/RachelMiller.jpg" alt="RachelMiller" id="staff">Rachel</h2>
+            				<h3>We would love to introduce Rachel Miller!!! </h3>
+                            <ul>
+								<li>She is one of our team players at the Rustic Pear Salon! Rachel loves to do Balayage Colors, Color Weaving, Men's and Ladies Haircuts and Gel Nails! </li>
+								<li>Call for an appointment 208-749-1095</li> 
+                            </ul> 
+                            
+        			</div>
+					<div data-role="collapsible" data-theme="h" data-collapsed="true">
+            				<h2><img src="images/BritneyAllred.jpg" alt=" BritneyAllred" id="staff">Britney</h2>
+            				<h3>We would like to welcome this pretty lady to the Rustic Pear Salon!!! Britney Allred </h3>
+                            <ul>
+								<li>She is full of fun and energy! She loves to do SASSY Cuts, Men's Cuts and BEAUTIFUL balayages!! She specializes in Eyelash Extensions and Nails! When she isn't busy working at the Salon she enjoys hunting, fishing, hiking, water sports, and pretty much anything that gets her outdoors! She is a country girl at heart!</li>
+								<li>Call or text for an appointment 208-731-8599 </li>
+                            </ul> 
+                            
+        			</div>
+				
+					<div data-role="collapsible" data-theme="h" data-collapsed="true">
+            				<h2><img src="images/KaraLarson.jpg"  alt="KaraLarson" id="staff">Kara</h2>
+            				<h3>We are so excited to introduce our newest Hairstylist at Rustic Pear Salon!!!</h3>
+                            <ul>
+								<li>Kara Larson is a new resident to Twin Falls. She has been in the Beauty Industry for over 8 years! Upon graduating from Paul Mitchell Beauty School in Salt Lake City, she became a SUCCESSFUL Stylist. </li>
+								<li>With her sharp eye for color and many hours of continuing education, she can create any custom look while enhancing the overall quality of her clients hair. Kara has a particular love for REDHEADS and designing trendy looks for BLONDES and BRUNETTES as well as beautiful Ombre's!!</li>
+								<li>oShe loves to create pixie cuts and sexy long layers. Along with her passion for the Beauty Industry, Kara loves spending time with her husband and son! She also spends a lot of time trying not to kill everything in her garden😉 </li>
+						    </ul> 
+                            
+        			</div>
+					
+					
+					
+					
+					
+					
+        		
+    		</div>
+    	</section>
+    
+    	<footer data-role="footer" class="ui-bar">
+			<h4>&copy; 2017 Rustic Pear Salon</h4>
+    	</footer>
+	</div>
+	
+	<!-- CONTACT US -->
+	<div data-role="page" data-theme="h"  id="contactus">
+    	<header data-role="header">
+        	<img src="images/pearimage.png"/>
+			<h1>Contact Us!!</h1>
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" data-theme="h">Home</a></li>
+					<li><a href="#aboutus" data-icon="star" data-theme="h">About Us</a></li>
+	            	<li><a href="#contactus" data-icon="grid" class="ui-btn-active" data-theme="h">Contact Us</a></li>
+				</ul>
+	    	</div>
+    	</header>
+    
+		<section data-role="content" data-theme="h">
+    		<h4>Please contact us by phone, mail, or email...whatever works best for you</h4>
+			<h4>Phone</h4><p><a href="tel:208-733-5377">208-733-5377</a></p>
+        	<h4>Mail</h4><p>Rustic Pear Salon<br>222 Main Ave N<br>Twin Falls, Idaho 83301</p>
+			<h4>Facebook</h4><p><a href="http://www.facebook.com/RusticPearSalon">Rustic Pear Salon Facebook</a></p>
+        	<h4>Messenger</h4><p><a href="Rustic Pear Salon@RusticPearSalon">Rustic Pear Salon@RusticPearSalon</a></p><br>
+        	<a href="#home" data-role="button" data-icon="back" data-theme="b">Back Home page</a>
+    	</section>
+    
+    
+    	<footer data-role="footer">
+        	<h4>&copy; 2017 Rustic Pear Salon</h4>
+    	</footer>
+	</div>
+	
+</body>
+</html>

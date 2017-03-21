@@ -1,0 +1,77 @@
+/*Rustic Pear Salon general sytle sheet
+  Programmed: 02/24/17
+  Author: Heidi Pearson
+  Description: this Style sheet is used for general styles for the h1, h2,h3, h4 and images while the theme css is for the zip and zang of the site.*/
+/***************************************************************************************************************************************************
+Modification Log:
+Name									Date										Description
+Heidi									03/21/17									adjusted h2 styles on line 13-17 
+
+******************************************************************************************************************************************************/
+h2 {
+	/*margin: 0 0 1em;*/
+	display:block;
+	max-width: 100%;
+	height: auto;
+	margin:auto;
+	padding: 10px 10px 10px 10px;
+}
+h1{
+	margin: 0 0 .5em;
+	text-align: center;
+	
+}
+#home h2 {
+	margin: 0 0 .5em;
+	text-align: center;
+}
+h3 {
+	margin: .75em 0 .5em;
+	padding-top: .5em;
+	border-top: 2px solid grey;
+}
+h4 {
+	margin: .75em 0 .25em;
+}
+img {
+	display:block;
+	max-width: 100%;
+	height: auto;
+	margin:auto;
+	padding: 10px 10px 10px 10px;
+	
+}
+#staff{
+	max-width:190px;
+	float:left;
+	margin:auto;
+	padding: 10px 10px 10px 10px;
+}
+p {
+	margin: 0 0 .5em;
+}
+a {
+	margin-bottom: .5em;
+}
+q {
+	margin-bottom: .5em;
+	display: block;
+}
+cite {
+	margin: .5em 0;
+	display: block;
+	text-align: right;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	padding-left: 1em;
+	padding-bottom: .5em;
+}
+li {
+	padding-left: .25em;
+	padding-bottom: .25em;
+}
+
